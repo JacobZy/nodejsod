@@ -1,14 +1,10 @@
-# Warning! Do Not Edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
 craft-f39
 
 @static
 
 @http
-
+get /
 
 @tables
 data
