@@ -1,0 +1,9 @@
+{
+  "name": "across",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "proxy": "^0.2.4"
+  }
+}
