@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "proxy": "^0.2.4"
+    "proxy": "^1.0.1"
   },
   "devDependencies": {
     "@architect/sandbox": "^1.5.4"
