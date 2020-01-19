@@ -6,8 +6,6 @@ const proxy = require('proxy') // 记得将proxy添加到你的package.json依�
 
 // 1. 创建一个TLS服务来加密数据 (记得签发你自己的证书)
 const options = {
-  key: fs.readFileSync('./keys/across.key'),
-  cert: fs.readFileSync('./keys/across.pem'),
 }
 const server = tls.createServer(options, (socket) => {
   socket.pause()
