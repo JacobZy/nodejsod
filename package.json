@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "proxy": "^0.2.4"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^1.5.4"
   }
 }
