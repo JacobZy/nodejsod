@@ -31,7 +31,8 @@ proxyServer.listen(3738, '127.0.0.1', () => {
   console.log('proxy server listening on port %d', port)
 })
 
+var pubport = process.env.PORT || 37637
 // 3. 启动TLS服务
-server.listen(37637, () => {
+server.listen(pubport, () => {
   console.log('server bound 37637')
 })
