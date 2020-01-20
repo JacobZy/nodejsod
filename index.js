@@ -9,7 +9,7 @@ const options = {
   key: fs.readFileSync(__dirname + '/keys/across.key'),
   cert: fs.readFileSync(__dirname + '/keys/across.pem'),
 }
-const server = tls.createServer(options, (socket) => {
+const server = tls.createServer(null, (socket) => {
   socket.pause()
 
   // 连接并转发数据到本机的代理服务器
